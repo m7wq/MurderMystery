@@ -1,0 +1,7 @@
+name: MurderMystery
+version: '${project.version}'
+main: org.drnull.murdermystery.MurderMystery
+commands:
+  start:
+    description: Start MurderMystery Round!
+    permission: start.permission
