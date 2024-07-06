@@ -35,16 +35,9 @@ public class RoundStartEvent extends Event {
         return murderer;
     }
 
-    public void setMurderer(Player murder) {
-        this.murderer = murder;
-    }
 
     public Player getSpy() {
         return spy;
-    }
-
-    public void setSpy(Player spy) {
-        this.spy = spy;
     }
 
     private static final HandlerList HANDLERS = new HandlerList();
